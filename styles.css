@@ -55,11 +55,11 @@ img.logo,
 }
 
 .logo {
-    margin-left: -80px;
+    margin-left: -50px;
 }
 
 .cta {
-    margin-right: -80px;
+    margin-right: -50px;
 }
 
 .nav_links {
@@ -536,8 +536,8 @@ img.arrow1 {
 
 .solu-crat {
     margin-top: 30px;
-    margin-left: 120px;
-    margin-bottom: -120px;
+    margin-left: 20px;
+    margin-bottom: -180px;
 }
 
 .solution-cont {
@@ -575,13 +575,14 @@ img.arrow1 {
 
 img.imgdot {
     padding-right: 20px;
-    margin-left: -140px;
+    margin-left: -50px;
+    z-index: -1;
 }
 
 img.imglast {
-    padding-right: 30px;
+    /* padding-right: 30px; */
     /* margin-top: -30px; */
-    margin-left: -40px;
+    /* margin-left: -40px; */
     padding-bottom: 200px;
 }
 
@@ -757,6 +758,9 @@ input.new {
         margin-left: 10px;
         height: 15px;
     }
+    .logo {
+        margin-left: 0px;
+    }
     .call1 {
         display: none;
     }
@@ -766,8 +770,10 @@ input.new {
     }
     .foot-social {
         justify-content: center;
-        margin-top: 20px;
+        /* margin-top: 20px; */
         display: flex;
+        width: 18px;
+        height: 20px;
         margin-left: 80px;
     }
     .caro-text1 {
@@ -828,6 +834,9 @@ input.new {
         line-height: 36px;
         font-size: 24px;
         line-height: 18px;
+    }
+    .proj-card {
+        padding-right: 100px;
     }
     .proj-text3 {
         font-size: 16px;
